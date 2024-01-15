@@ -45,4 +45,16 @@
     border: none;
     margin-top: 20px;
   }
+  /* card */
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 10px;
+  }
+  .popular-section {
+    margin-top: 20px;
+  }
+  .heading-1 {
+    margin-bottom: -10px;
+  }
 }
