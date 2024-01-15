@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* shared style */
+.text-style {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.primary-btn {
+  background-color: #e02c6d;
+  border-radius: 41px;
+  width: 160px;
+  padding: 10px 24px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  margin-top: 10px;
+}
+
+/* navigation bar */
+.menu-bar-vai {
+  display: none;
+}
+.navbar {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.menu-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.menu-item li {
+  list-style: none;
+}
+.menu-item li a {
+  text-decoration: none;
+}
+.website-title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+/* banner section */
+.banner {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-content p {
+  max-width: 500px;
+}
+.banner-content h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.margin-y {
+  margin: 5px 0;
+}
+/* .image img */
+.banner-img {
+  /* border: 2px solid red; */
+  background-image: url("../images/Circle\ design.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
